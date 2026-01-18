@@ -2,165 +2,171 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Limpeza de Ar-Condicionado em Cuiabá | Soluções Climatização</title>
 
-    <meta name="description" content="Limpeza profissional de ar-condicionado em Cuiabá e Várzea Grande. Elimine fungos, economize energia e melhore a qualidade do ar.">
-    <meta name="keywords" content="limpeza de ar condicionado, higienização ar condicionado, limpeza split Cuiabá, limpeza ar condicionado">
+    <!-- Viewport otimizado para celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Instalação de Ar-Condicionado em Cuiabá e Várzea Grande | Técnico Especializado</title>
+
+    <meta name="description" content="Instalação profissional de ar-condicionado em Cuiabá e Várzea Grande. Técnico especializado em split, inverter e convencional. Garantia, economia de energia e serviço de qualidade.">
+
+    <link rel="canonical" href="https://instalacao.solucoesclimatizacao.com.br/">
+
+    <!-- SEO Local (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Instalação de Ar-Condicionado",
+      "provider": {
+        "@type": "Organization",
+        "name": "Soluções Climatização",
+        "url": "https://solucoesclimatizacao.com.br"
+      },
+      "areaServed": {
+        "@type": "AdministrativeArea",
+        "name": "Cuiabá e Várzea Grande - MT"
+      },
+      "description": "Instalação profissional de ar-condicionado com técnico especializado em Cuiabá e Várzea Grande."
+    }
+    </script>
+
     <style>
+        :root {
+            --primary: #25D366;
+            --primary-dark: #128c7e;
+            --text: #111;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f5f7fa;
-            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to bottom, #e8f5e9 0%, #ffffff 70%);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
         }
 
-        header {
-            background-color: #0a3d62;
-            color: #fff;
-            padding: 25px 15px;
-            text-align: center;
-        }
-
-        header img {
-            max-width: 160px;
-            margin-bottom: 10px;
-        }
-
-        header h1 {
-            margin: 10px 0 5px;
-            font-size: 28px;
-        }
-
-        header p {
-            margin: 0;
-            font-size: 16px;
-        }
-
-        section {
-            max-width: 1000px;
-            margin: auto;
-            padding: 40px 20px;
-        }
-
-        section h2 {
-            color: #0a3d62;
-            margin-bottom: 15px;
-        }
-
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 30px;
-        }
-
-        .card {
+        .container {
+            width: 95%;
+            max-width: 860px;
+            margin: 25px auto;
             background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 30px 22px 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 28px rgba(0,0,0,0.1);
         }
 
-        .cta {
-            background-color: #0a3d62;
-            color: #fff;
+        /* LOGO */
+        .logo {
             text-align: center;
-            padding: 40px 20px;
+            margin: 25px 0 35px;
+        }
+
+        .logo img {
+            width: 100%;
+            max-width: 260px;
+            height: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary);
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 35px;
+            line-height: 1.2;
+        }
+
+        .main-text p {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 28px;
+        }
+
+        /* BOTÃO WHATSAPP */
+        .cta {
+            text-align: center;
+            margin: 55px 0 45px;
         }
 
         .cta a {
             display: inline-block;
-            background-color: #25D366;
+            background: var(--primary);
             color: #fff;
-            padding: 15px 30px;
-            border-radius: 50px;
             text-decoration: none;
-            font-size: 18px;
-            margin-top: 20px;
+            font-size: 1.4rem;
+            font-weight: 900;
+            padding: 22px 40px;
+            border-radius: 60px;
+            box-shadow: 0 8px 22px rgba(37,213,102,0.45);
+            transition: all 0.3s ease;
+        }
+
+        .cta a:hover {
+            background: var(--primary-dark);
+            transform: scale(1.05);
         }
 
         footer {
-            background-color: #0a3d62;
-            color: #fff;
             text-align: center;
-            padding: 15px;
-            font-size: 14px;
+            margin-top: 50px;
+            padding-top: 25px;
+            border-top: 1px solid #ddd;
+            font-size: 1rem;
+            font-weight: 600;
         }
 
-        /* Botão flutuante WhatsApp */
-        .whatsapp {
-            position: fixed;
-            right: 20px;
-            bottom: 20px;
-            background-color: #25D366;
-            color: white;
-            font-size: 22px;
-            padding: 15px 18px;
-            border-radius: 50%;
+        footer a {
+            color: var(--primary);
             text-decoration: none;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-            z-index: 999;
+            font-weight: 800;
+        }
+
+        /* AJUSTES PARA TELAS MAIORES */
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 2.7rem;
+            }
+
+            .main-text p {
+                font-size: 1.35rem;
+            }
+
+            .logo img {
+                max-width: 320px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <!-- LOGO -->
-    <img src="logo.jpeg" alt="Soluções Climatização">
+    <div class="container">
 
-    <h1>Limpeza de Ar-Condicionado</h1>
-    <p>Cuiabá e Várzea Grande</p>
-</header>
-
-<section>
-    <h2>Por que a limpeza do ar-condicionado é essencial?</h2>
-    <p>
-        A limpeza periódica do ar-condicionado garante um ar mais saudável,
-        melhora o desempenho do equipamento, reduz o consumo de energia
-        e evita problemas respiratórios.
-    </p>
-
-    <div class="cards">
-        <div class="card">
-            <h3>🫁 Saúde da Família</h3>
-            <p>Elimina ácaros, fungos, bactérias e mau cheiro.</p>
+        <!-- LOGO -->
+        <div class="logo">
+            <a href="https://solucoesclimatizacao.com.br">
+                <img src="logo.png" alt="Soluções Climatização">
+            </a>
         </div>
 
-        <div class="card">
-            <h3>💡 Economia</h3>
-            <p>Equipamento limpo consome menos energia elétrica.</p>
+        <h1>Instalação de Ar-Condicionado em Cuiabá e Várzea Grande</h1>
+
+        <div class="main-text">
+            <p>Precisa de instalação de ar-condicionado em Cuiabá ou Várzea Grande feita por técnico especializado?</p>
+
+            <p>Executamos instalação de ar-condicionado split, inverter e convencional seguindo todas as normas técnicas. Utilizamos bomba de vácuo, flanges bem feitas e realizamos verificação completa do sistema.</p>
+
+            <p>Uma instalação correta evita vazamentos, reduz consumo de energia, aumenta a vida útil do aparelho e mantém a garantia do fabricante.</p>
+
+            <p>Atendemos residências e comércios com agendamento rápido e suporte pós-serviço.</p>
         </div>
 
-        <div class="card">
-            <h3>❄️ Melhor Refrigeração</h3>
-            <p>Ar mais gelado e melhor circulação no ambiente.</p>
-        </div>
-
-        <div class="card">
-            <h3>🛠️ Prevenção de Defeitos</h3>
-            <p>Evita entupimentos e falhas no sistema.</p>
-        </div>
-    </div>
-</section>
-
-<div class="cta">
-    <h2>Agende agora a limpeza do seu ar-condicionado</h2>
-    <p>Atendimento rápido e profissional</p>
-
-    <a href="https://wa.me/556593591390" target="_blank">
-        Falar no WhatsApp
-    </a>
-</div>
-
-<footer>
-    © 2026 Soluções Climatização – Limpeza de Ar-Condicionado
-</footer>
-
-<a class="whatsapp" href="https://wa.me/556593591390" target="_blank">💬</a>
-
-</body>
-</html>
+        <div class="cta">
+            <a href="htt
